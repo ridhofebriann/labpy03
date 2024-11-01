@@ -44,5 +44,8 @@ Bilangan acak yang dihasilkan berada dalam rentang 0 sampai 1
 Hanya bilangan yang < 0.5 yang akan dicetak dan dihitung
 Loop akan terus berjalan sampai mendapatkan jumlah bilangan yang diinginkan (count = n)
 
-# tampilan code program nya 
+# tampilan code program python nya:
+![foto](https://github.com/ridhofebriann/labpy03/blob/main/ss%20latihan1.png?raw=true)
+
+# Berikut hasil code program python yang sudah di jalankan:
 ![foto](
