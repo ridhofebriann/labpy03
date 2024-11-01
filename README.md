@@ -167,7 +167,69 @@ Mengakumulasi total keuntungan
 Menampilkan laporan laba rugi sederhana
 
 # berikut foto code program python nya:
-![foto](
+![foto](https://github.com/ridhofebriann/labpy03/blob/main/ss1%20latihan2.png?raw=true)
 
 # berikut hasil code program python yang sudah di jalankan:
+![foto](https://github.com/ridhofebriann/labpy03/blob/main/ss2%20latihan2.png?raw=true)
+
+
+# Alur algoritma latihan3: latihan3.py
+1. Inisialisasi
+
+Set saldo awal = 1.000.000
+
+Tampilkan pesan selamat datang
+
+Tampilkan saldo awal
+
+2. Loop Utama (while True)
+
+Tampilkan menu:
+
+Tarik Tunai
+
+Cek Saldo
+
+Keluar
+
+Minta input pilihan dari pengguna
+
+3. Proses Pilihan
+
+Jika pilihan = 1 (Tarik Tunai):
+
+a. Minta input jumlah penarikan
+
+b. Validasi jumlah penarikan:
+
+Jika jumlah > saldo: Tampilkan pesan error
+
+Jika jumlah <= 0: Tampilkan pesan error
+
+Jika valid:
+
+Kurangi saldo dengan jumlah penarikan
+
+Tampilkan jumlah penarikan dan saldo baru
+
+Jika pilihan = 2 (Cek Saldo):
+
+a. Tampilkan saldo saat ini
+
+Jika pilihan = 3 (Keluar):
+
+a. Tampilkan pesan terima kasih 
+
+b. Keluar dari loop (break)
+
+Jika pilihan tidak valid: a. Tampilkan pesan error
+
+4. Kembali ke awal loop (langkah 2) jika tidak memilih keluar
+
+5. Program selesai
+
+# berikut code program python nya:
+![foto](
+
+# berikut hasil code program yang sudah di jalankan:
 ![foto](
