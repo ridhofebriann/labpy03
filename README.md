@@ -229,7 +229,7 @@ Jika pilihan tidak valid: a. Tampilkan pesan error
 5. Program selesai
 
 # berikut code program python nya:
-![foto](
+![foto](https://github.com/ridhofebriann/labpy03/blob/main/ss1%20latihan3.png?raw=true)
 
 # berikut hasil code program yang sudah di jalankan:
-![foto](
+![foto](https://github.com/ridhofebriann/labpy03/blob/main/ss2%20latihan%203.png?raw=true)
