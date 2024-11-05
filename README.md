@@ -174,17 +174,41 @@ Menampilkan laporan laba rugi sederhana
 
 
 # Alur algoritma latihan3: latihan3.py
-1. Inisialisasi
+Alur Algoritma Program ATM
 
-Set saldo awal = 1.000.000
+1. Inisialisasi Saldo
+   
+Langkah:
 
-Tampilkan pesan selamat datang
+Tentukan variabel 'saldo'.
 
-Tampilkan saldo awal
+Setel 'saldo' ke 1.000.000.
 
-2. Loop Utama (while True)
+Tujuan: Menyimpan jumlah uang yang tersedia untuk ditarik oleh pengguna.
 
-Tampilkan menu:
+2. Tampilkan Pesan Selamat Datang
+
+Langkah:
+
+Tampilkan pesan: "Selamat datang di Mesin ATM!".
+
+Tampilkan saldo awal: "Saldo Anda saat ini: Rp 1.000.000".
+
+Tujuan: Memberikan informasi awal kepada pengguna tentang saldo mereka.
+
+3. Mulai Loop Utama
+
+Langkah:
+
+Masuk ke dalam loop tak terbatas dengan 'while True'.
+
+Tujuan: Memungkinkan pengguna untuk melakukan beberapa transaksi tanpa harus memulai ulang program.
+
+4. Tampilkan Menu Pilihan
+
+Langkah:
+
+Tampilkan menu pilihan:
 
 Tarik Tunai
 
@@ -192,41 +216,62 @@ Cek Saldo
 
 Keluar
 
-Minta input pilihan dari pengguna
+Tujuan: Memberikan pilihan kepada pengguna untuk melakukan tindakan yang diinginkan.
 
-3. Proses Pilihan
+5. Minta Input dari Pengguna
 
-Jika pilihan = 1 (Tarik Tunai):
+Langkah:
 
-a. Minta input jumlah penarikan
+Minta pengguna untuk memasukkan pilihan menu dengan 'input()'.
 
-b. Validasi jumlah penarikan:
+Tujuan: Mengambil keputusan dari pengguna mengenai tindakan yang ingin dilakukan.
 
-Jika jumlah > saldo: Tampilkan pesan error
+6. Proses Berdasarkan Pilihan
 
-Jika jumlah <= 0: Tampilkan pesan error
+Langkah:
 
-Jika valid:
+Jika pilihan adalah '1' (Tarik Tunai):
 
-Kurangi saldo dengan jumlah penarikan
+Minta pengguna untuk memasukkan jumlah uang yang ingin ditarik.
 
-Tampilkan jumlah penarikan dan saldo baru
+Validasi Jumlah Penarikan:
 
-Jika pilihan = 2 (Cek Saldo):
+Jika jumlah yang diminta lebih besar dari saldo:
 
-a. Tampilkan saldo saat ini
+Tampilkan pesan kesalahan: "Jumlah yang diminta melebihi saldo Anda. Silakan coba lagi."
 
-Jika pilihan = 3 (Keluar):
+Jika jumlah yang diminta kurang dari atau sama dengan 0:
 
-a. Tampilkan pesan terima kasih 
+Tampilkan pesan kesalahan: "Jumlah penarikan harus lebih dari 0. Silakan coba lagi."
 
-b. Keluar dari loop (break)
+Jika jumlah yang diminta valid:
 
-Jika pilihan tidak valid: a. Tampilkan pesan error
+Kurangi saldo dengan jumlah yang ditarik: 'saldo -= jumlah_tarik'.
 
-4. Kembali ke awal loop (langkah 2) jika tidak memilih keluar
+Tampilkan pesan: "Anda telah menarik Rp [jumlah_tarik]. Sisa saldo Anda: Rp [saldo]."
 
-5. Program selesai
+Jika pilihan adalah '2' (Cek Saldo):
+
+Tampilkan saldo saat ini dengan pesan: "Saldo Anda saat ini: Rp [saldo]."
+
+Jika pilihan adalah '3' (Keluar):
+
+Tampilkan pesan: "Terima kasih telah menggunakan Mesin ATM. Selamat tinggal!"
+
+Keluar dari loop dengan break.
+
+Jika pilihan tidak valid:
+
+Tampilkan pesan kesalahan: "Pilihan tidak valid. Silakan coba lagi."
+
+7. Kembali ke Langkah 4
+
+Langkah:
+
+Setelah menyelesaikan proses berdasarkan pilihan, kembali ke langkah 4 untuk menampilkan menu lagi dan meminta input pengguna.
+
+Tujuan: Memungkinkan pengguna untuk melakukan transaksi tambahan atau keluar dari program.
+
 
 # berikut code program python nya:
 ![foto](https://github.com/ridhofebriann/labpy03/blob/main/ss1%20latihan3.png?raw=true)
